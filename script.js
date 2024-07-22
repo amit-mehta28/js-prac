@@ -74,3 +74,48 @@
 // const arr = [1, 2, 3, 4, 5]
 // const result = squareNumbers(arr)
 // console.log("result:", result)
+
+
+// Question:
+// Write a function that takes an array of integers and returns a new array containing only the even numbers from the original array.
+
+// function filterEvenNumbers(arr) {
+//     const allEvenNums = arr.filter((num) => num % 2 == 0)
+//     return allEvenNums;
+// }
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// const result = filterEvenNumbers(arr);
+// console.log(result)
+
+
+// Question:
+// Write a function that takes a string as input and returns the string reversed.
+
+// const reversedString = (str) => {
+//     return str.split('').reverse().join('');
+// }
+
+// const result = reversedString("hello");
+// console.log(result)
+
+
+// Question:
+// Write a function that takes an array of numbers and returns the largest number in the array.
+
+// function findLargestNumber(arr) {
+//     if (arr.length === 0) {
+//         throw new Error("Array is empty");
+//     }
+//     let largest = arr[0];
+//     for (let i = 1; i < arr.length; i++) {
+//         if (arr[i] > largest) {
+//             largest = arr[i];
+//         }
+//     }
+//     return largest
+// }
+
+// let arr = [10, 20, 30, 40, 50, 15, 68];
+// const result = findLargestNumber(arr);
+// console.log(result)
